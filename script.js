@@ -97,4 +97,36 @@
 //    console.log(typeof Hello)
 //    console.log(typeof function() {})
 //    console.log(typeof {})
-   
+
+
+
+// var arrayOfNumbers = [3,5,7,9,10];
+//  console.log(arrayOfNumbers[0])
+
+//  var objects={
+//      animal: 'cow'
+//      number :[2,4,6,8,10],
+//  }
+//   console.log(objects.number) 
+
+
+// var newObject =['red','blue','white','black'];
+// myArray[0]= 'food'
+// myArray.push(green)
+// // myArray.pop(green)
+// myArray.unshift(green)
+// console.log(myArray)
+
+
+let firstName = prompt("Please enter your first name:");
+let lastName = prompt("Please enter your last name:");
+
+console.log("Your full name is: " + firstName + " " + lastName);
+
+
+// const firstName = prompt("Enter your first name:");
+// const lastName = prompt("Enter your last name:");
+
+// console.log(`Hello ${firstName} ${lastName}!`);
+
+
