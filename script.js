@@ -118,15 +118,118 @@
 // console.log(myArray)
 
 
-let firstName = prompt("Please enter your first name:");
-let lastName = prompt("Please enter your last name:");
+// let firstName = prompt("Please enter your first name:");
+// let lastName = prompt("Please enter your last name:");
 
-console.log("Your full name is: " + firstName + " " + lastName);
+// console.log("Your full name is: " + firstName + " " + lastName);
 
 
 // const firstName = prompt("Enter your first name:");
 // const lastName = prompt("Enter your last name:");
 
 // console.log(`Hello ${firstName} ${lastName}!`);
+
+
+// console.log(2 + 5);
+
+
+
+
+// let num1 = 2;
+// let num2 = 5;
+
+// let sum = num1 + num2;
+
+// console.log(sum);
+
+
+
+// let sum= 1+1
+// console.log(sum)
+
+
+// let num = (prompt("Enter a number: "));
+
+// if (num > 0) {
+//   console.log("Positive number");
+// }
+// else if (num < 0) {
+//   console.log("Negative number");
+// }
+// else {
+//   console.log("Zero");
+// }
+
+
+
+// let john = {
+//      name:'john',
+//      sayHi: function () {
+//           alert('hi john')
+//      }
+// }
+
+// john.sayHi();
+
+
+// let str = 'Hello'
+// console.log(str.toUpperCase());
+
+// let n = 1.23456;
+// console.log(n.toFixed(3));
+
+// console.log(typeof 0);
+
+// console.log(typeof new Number(0));
+
+// let number = 0;
+
+
+// let number = 4;
+
+
+// let num = Number('123')
+
+
+// let str = 'Hello'
+
+// str = 5;
+// console.log(str);
+
+// let str = {
+//      name:'john'
+// }
+// str.name
+// console.log(str.name)
+
+// let billion  = 1000000000;
+
+// let billions = 1_000_000_000;
+
+// let billionss = 1e9;
+
+// console.log(1e3 * 1000);
+
+
+// let num = 255;
+
+// console.log(num.toString(16));
+
+// let num = 255.123456;
+
+// console.log(math.round(num));
+
+
+
+let num = 255.123456;
+
+
+console.log(num.toFixed(1));
+
+
+
+
+
+
 
 
