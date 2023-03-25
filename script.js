@@ -221,15 +221,147 @@
 
 
 
-let num = 255.123456;
+// let num = 255.123456;
 
 
-console.log(num.toFixed(1));
+// console.log(num.toFixed(1));
+
+// let num = 255.123456;
+// console.log(parseInt(num));
+
+// let num = '255';
+// console.log(typeof parseFloat(num));
+
+// let num = '255';
+// console.log(parseFloat(num));
 
 
 
 
+// create a script that promts the user to enter two numbers and then shows their sum
+
+// let num1 = parseInt(prompt("Enter the first number: "));
+// let num2 = parseInt(prompt("Enter the second number: "));
+
+
+// let sum = num1 + num2;
+
+// alert("The sum of " + num1 + " and " + num2 + " is " + sum);
 
 
 
 
+// write a javascript function that will run and add 0.2 till it gets to 10
+
+// let i = 0;
+// while(1 != 10){
+//      1+= 0.2;
+// }
+
+
+// let i = 0;
+// while(i != 10){
+//      i += 0.2;
+// }
+
+
+// function addTillTen() {
+//      let sum = 0;
+//      let num = 0;
+//      while (num < 10) {
+//        sum += 0.2;
+//        num += 0.2;
+//      }
+//      return sum;
+//    }
+
+
+// function sum (a, b){
+//      return a + b
+// }
+// console.log(sum(2,3));
+
+// console.log('the sum of the numbers are:', sum(2,3));
+
+
+// console.log(`the sum of the numbers are = ${sum(2,3)}`);
+
+
+// special character
+
+// let people = "Guests:\n * john\n * peter\n * mary";
+
+// console.log(people);
+
+
+// let anotherStr = "Hello world, \*Another quotes\*"
+// console.log(anotherStr)
+
+
+
+// let num1 =  
+// let num2 = prompt("Enter the second number:");
+
+// // Convert the input strings to numbers (since prompt returns string)
+// num1 = parseInt(num1);
+// num2 = parseInt(num2);
+
+// // Add the two numbers
+// let sum = num1 + num2;
+
+// if (sum > 100) {
+//     alert("The sum is greater than 100!");
+// } else if (sum === 100) {
+//     alert("The sum is equal to 100.");
+// }else
+// alert ("The sum is less than 100.");
+
+
+
+
+// function sumInput() {
+//      let numbers = [];
+//      while (true) {
+//        let input = prompt("Enter a number:");
+   
+//        // stop asking for input when user enters a non-numeric value, an empty string or presses "Cancel"
+//        if (input === "" || input === null || !isFinite(input)) {
+//          break;
+//        }
+   
+//        // add the input number to the array
+//        numbers.push(+input);
+//      }
+   
+//      // calculate the sum of array items
+//      let sum = 0;
+//      for (let number of numbers) {
+//        sum += number;
+//      }
+//      return sum;
+//    }
+
+   
+//    function sumInput() {
+//      let numbers = [];
+//      while (true) {
+//        let input = prompt("Enter a number:");
+   
+//        // stop asking for input if the input is empty, not a number, or "Cancel" is clicked
+//        if (input === '' || input === null || !isFinite(input)) break;
+   
+//        numbers.push(+input);
+//      }
+   
+//      let sum = 0;
+//      for (let number of numbers) {
+//        sum += number;
+//      }
+//      return sum;
+//    }
+   
+
+
+
+
+   
