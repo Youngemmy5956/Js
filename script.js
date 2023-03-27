@@ -259,14 +259,14 @@
 // }
 
 
-function addTillTen() {
-     let i = 0;
-     for (i = 0; i < 10; i += 0.2) {
-       console.log(i);
-     }
-   }
+// function addTillTen() {
+//      let i = 0;
+//      for (i = 0; i < 10; i += 0.2) {
+//        console.log(i);
+//      }
+//    }
    
-   addTillTen();
+//    addTillTen();
 
 
 // let i = 0;
@@ -398,4 +398,226 @@ function addTillTen() {
 // arr.splice(0,1)
 // console.log(arr)
 
+// let arr = ["I", "Study", "Javascript"]
+// console.log(arr.slice())
 
+
+// let arr = ["I", "Study", "Javascript"]
+// arr.forEach((item,index) => {
+//      console.log('list of items:', item, 'this is the index:', index)
+     // console.log((arr.indexOf("I" ,0)))
+     // console.log((arr.indexOf(2, 0)))
+     // console.log(arr.sort)
+// })
+
+     // let arr = [1,2,3,4,5,2]
+
+     // console.log(arr.includes(2));
+
+     // console.log(arr.reverse());
+     // arr.map((item, index) => {
+     //      console.log('list off items:', 'This is index of:', index)
+     // })
+
+
+// function compare (a,b) {
+//      if(a > b) {
+//           return 1;
+//      }if (a == b){
+//           return 0;
+//      }
+// }
+// arr.compare(a,b)
+
+
+// write an array that will sort
+
+// Write a function that will sort an array in descending order [5, 2, 1, -10, 8]
+
+// let arr = [5, 2, 1, -10, 8];
+
+// let sortedArr = arr.sort();
+// console.log(sortedArr.reverse()); 
+
+// function sortNumbers(arr) {
+//      arr.sort(function(a, b) {
+//        return b - a;
+//      });
+//      return arr;
+//    }
+
+// let arr = [5, 2, 1, -10, 8];
+// let sortedArr = sortNumbers(arr);
+// console.log(sortedArr); 
+
+
+// // Write a function that will sort an array ascending order [5, 2, 1, -10, 8]
+
+// let arr = [5, 2, 1, -10, 8];
+
+//    let sortedArr = arr.sort();
+// console.log(sortedArr); 
+
+
+// you have a javascript array of user objects, each one has user.name.  write the code that converts it into an array of names 
+
+// const users = [
+//      {
+//      name:'john', age:30
+// },
+// {
+//      name:'peter', age:25
+// },
+// {
+//      name:'mary', age:28
+// },
+// ]
+
+
+// console.log (users.map(item => item.name));
+
+
+
+// The given input is a string of multiple words with a single space between each of them. Abbreviate the name and return the name initials.
+
+
+const input = "George Raymond Richard Martin";
+
+ 
+console.log( input.split(" ").map(function (words){ return words[0]; }) );
+
+console.log( input.split(" ").map(function (words){ return words[0]; }).join("") );
+
+
+// Find the difference in age between the oldest and youngest family members, and return their respective ages and the age difference.
+
+// const input = [
+//      {
+//        name: "John",
+//        age: 13,
+//      },
+//      {
+//        name: "Mark",
+//        age: 56,
+//      },
+//      {
+//        name: "Rachel",
+//        age: 45,
+//      },
+//      {
+//        name: "Nate",
+//        age: 67,
+//      },
+//      {
+//        name: "Jennifer",
+//        age: 65,
+//      },
+//    ];
+   
+//    const ages = input.map((name) => name.age);
+   
+//   console.log([Math.min(...ages), Math.max(...ages), Math.max(...ages) - Math.min(...ages)]) ;
+
+
+// or written with Arrow function
+
+
+// const input = "George Raymond Richard Martin";
+
+// console.log(
+//   input
+//     .split(" ")
+//     .map(function (word) {
+//       return word[0];
+//     })
+//     .join("")
+// );
+// function getInitials(input) {
+//      let initials = "";
+//      const words = input.split(" ");
+   
+//      for (let i = 0; i < words.length; i++) {
+//        initials += words[i].charAt(0);
+//      }
+   
+//      return initials.toUpperCase();
+//    }
+   
+//    const input = "George Raymond Richard Martin";
+//    const initials = getInitials(input);
+   
+//    console.log(initials); // Output: GRRM
+
+
+
+// Find the difference in age between the oldest and youngest family members, and return their respective ages and the age difference.
+
+//    function getAgeDifference(input) {
+//      let minAge = input[0].age;
+//      let maxAge = input[0].age;
+   
+//      for (let i = 1; i < input.length; i++) {
+//        const age = input[i].age;
+//        if (age < minAge) {
+//          minAge = age;
+//        }
+//        if (age > maxAge) {
+//          maxAge = age;
+//        }
+//      }
+   
+//      const ageDifference = maxAge - minAge;
+//      return {
+//        youngestAge: minAge,
+//        oldestAge: maxAge,
+//        ageDifference: ageDifference,
+//      };
+//    }
+   
+//    const input = [  
+//      {    name: "John",    age: 13,  }, 
+     
+//      {    name: "Mark",    age: 56,  }, 
+     
+//      {    name: "Rachel",    age: 45,  }, 
+     
+//      {    name: "Nate",    age: 67,  },  
+     
+//      {    name: "Jennifer",    age: 65,  },];
+   
+//    const result = getAgeDifference(input);
+//    console.log(result); // Output: { youngestAge: 13, oldestAge: 67, ageDifference: 54 }
+
+
+
+// const input = [
+//      {
+//        name: "John",
+//        age: 13,
+//      },
+//      {
+//        name: "Mark",
+//        age: 56,
+//      },
+//      {
+//        name: "Rachel",
+//        age: 45,
+//      },
+//      {
+//        name: "Nate",
+//        age: 67,
+//      },
+//      {
+//        name: "Jennifer",
+//        age: 65,
+//      },
+//    ];
+   
+//    const ages = input.map((person) => person.age);
+   
+//   console.log([Math.min(...ages), Math.max(...ages), Math.max(...ages) - Math.min(...ages)]) ;
+  
+   
+   
+
+  
