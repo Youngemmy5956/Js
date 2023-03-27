@@ -259,6 +259,16 @@
 // }
 
 
+function addTillTen() {
+     let i = 0;
+     for (i = 0; i < 10; i += 0.2) {
+       console.log(i);
+     }
+   }
+   
+   addTillTen();
+
+
 // let i = 0;
 // while(i != 10){
 //      i += 0.2;
@@ -360,8 +370,24 @@
 //      return sum;
 //    }
    
+// Write a function that return a string with the upper case first character data
 
+// function capitalizeFirstLetter(str) {
+//      return str.charAt(0).toUpperCase() + str.slice(1);
+//    }
+   
+   
+//    console.log(capitalizeFirstLetter("hello world")); 
+//    console.log(capitalizeFirstLetter("my beautiful wife")); 
+   
 
-
+//    Write a function that would extract numeric value from string and return it
 
    
+// function extractNumber(str) {
+//      const regex = /\d+/g;
+//      const result = str.match(regex);
+//      return result ? Number(result[0]) : null;
+//    }
+   
+//    This function uses a regular expression (regex) to find any sequence of one or more digits in the input string, and returns the first match as a number. If there are no matches, it returns `null`.
