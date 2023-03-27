@@ -391,3 +391,11 @@ function addTillTen() {
 //    }
    
 //    This function uses a regular expression (regex) to find any sequence of one or more digits in the input string, and returns the first match as a number. If there are no matches, it returns `null`.
+
+
+
+// let arr = ["I", "Study", "Javascript"]
+// arr.splice(0,1)
+// console.log(arr)
+
+
