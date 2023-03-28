@@ -481,12 +481,12 @@
 // The given input is a string of multiple words with a single space between each of them. Abbreviate the name and return the name initials.
 
 
-const input = "George Raymond Richard Martin";
+// const input = "George Raymond Richard Martin";
 
  
-console.log( input.split(" ").map(function (words){ return words[0]; }) );
+// console.log( input.split(" ").map(function (words){ return words[0]; }) );
 
-console.log( input.split(" ").map(function (words){ return words[0]; }).join("") );
+// console.log( input.split(" ").map(function (words){ return words[0]; }).join("") );
 
 
 // Find the difference in age between the oldest and youngest family members, and return their respective ages and the age difference.
