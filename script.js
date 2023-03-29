@@ -704,16 +704,110 @@
 // console.log(arr[0])
    
 
-let user = {};
-[user.name, user.surname] = "john smith".split("")
+// let user = {};
+// [user.name, user.surname] = "john smith".split("")
 
-console.log(typeof "john smith".split(""))
+// console.log(typeof "john smith".split(""))
 
-console.log(typeof "john smith")
+// console.log(typeof "john smith")
 
 
-let users = new map ();
-users.set('name', 'john')
-user.set("age", '30')
+// let users = new map ();
+// users.set('name', 'john')
+// user.set("age", '30')
+
+
+
+// Write the destructuring assignment that reads name property into the variable name.years property into the variable age.isAdmin property into the variable isAdmin (false, if no such property)Here’s an example of the values after your assignment:
+
+let user = {
+     name: "John",
+     years: 30
+   };
+   
+   let {name, years: age, isAdmin = false} = user;
+
+
+   console.log(name)
+   console.log(age)
+   console.log(isAdmin)
+
+
+
+
+
+   let salaries = {
+     "John": 100,
+     "Pete": 300,
+     "Mary": 250
+   };
+
+   
+
+   function topSalary(salaries) {
+  
+     let maxSalary = 0;
+     let topPaid = null;
+   
+     for(let [name, salary] of Object.entries(salaries)) {
+       if (salary > maxSalary) {
+         maxSalary = salary;
+         topPaid = name;
+       }
+     }
+   
+     return topPaid;
+   }
+
+   console.log(topSalary(salaries));
+
+
+
+//   function topSalary(salaries) {
+//   let maxSalary = 0;
+//   let topEarner = null;
+  
+//   if (Object.keys(salaries).length === 0) {
+//     return null;
+//   }
+  
+//   for (let [name, salary] of Object.entries(salaries)) {
+//     if (salary > maxSalary) {
+//       maxSalary = salary;
+//       topEarner = name;
+//     }
+//   }
+  
+//   return topEarner;
+// }
+
+// let salaries = {}; // Empty object
+
+// console.log(topSalary(salaries)); // Output: null
+
+
+
+
+//    describe("topSalary", function() {
+//      it("returns top-paid person", function() {
+//        let salaries = {
+//          "John": 100,
+//          "Pete": 300,
+//          "Mary": 250
+//        };
+   
+//        assert.equal( topSalary(salaries), "Pete" );
+//      });
+   
+//      it("returns null for the empty object", function() {
+//        assert.isNull( topSalary({}) );
+//      });
+//    });
+
+
+
+
+   
+
 
   
