@@ -486,6 +486,16 @@
  
 // console.log( input.split(" ").map(function (words){ return words[0]; }) );
 
+
+// const initials = input
+//   .split(" ")
+//   .map((word) => word[0])
+//   .join("");
+
+//   console.log(initials);
+
+  
+
 // console.log( input.split(" ").map(function (words){ return words[0]; }).join("") );
 
 
@@ -515,6 +525,10 @@
 //    ];
    
 //    const ages = input.map((name) => name.age);
+
+// const ages = input.map(function (name) {
+//      return name.age 
+// })
    
 //   console.log([Math.min(...ages), Math.max(...ages), Math.max(...ages) - Math.min(...ages)]) ;
 
@@ -617,7 +631,89 @@
    
 //   console.log([Math.min(...ages), Math.max(...ages), Math.max(...ages) - Math.min(...ages)]) ;
   
+
+
+// let set = new Set();
+// let john = {name:  "john"}
+// let peter = {name:  "peter"}
+// let mary = {name:  "mary"}
+
+
+// set.add(john);
+// set.add(peter);
+// set.add(mary);
+// set.add(peter);
+// set.add(john);
+// set.add(peter);
+
+
+// console.log(set.size);
+
+
+// let values = ["harry", "barry", "marry", "harry", "barry", "marry", "harry", "barry", "marry" ];
+
+// console.log(new Set(values));
+
+// const newObject = {
+//      name: "Jennifer",
+//      age: "65",
+// };
+// console.log(Object.entries(newObject));
+
+// const newObjects = {}
+
+
+// write a function sumSalaries(salaries) that returns the sum of all salaries using object.values and a for .. of  loop. if salariesis empty, then the result must be 0.
    
+
+
+// let salaries = {
+//      "john": 100,
+//      "peter": 300,
+//      "mary": 250
+// };
+
+// function sumSalaries(salaries) {
+
+//      let sum = 0;
+//      for (let salary of Object.values(salaries)) {
+//        sum += salary;
+//      }
    
+//      return sum;
+     
+//    }
+
+   
+// console.log(sumSalaries(salaries));
+
+// function sumSalaries(salaries) {
+//      return Object.values(salaries).reduce((a, b) => a + b, 0) // 650
+//    }
+   
+
+// array destructing
+
+
+// let arr = ['John', 'Emma' ]
+
+// let [firstName, lastName] = arr;
+
+// console.log(arr)
+
+// console.log(arr[0])
+   
+
+let user = {};
+[user.name, user.surname] = "john smith".split("")
+
+console.log(typeof "john smith".split(""))
+
+console.log(typeof "john smith")
+
+
+let users = new map ();
+users.set('name', 'john')
+user.set("age", '30')
 
   
