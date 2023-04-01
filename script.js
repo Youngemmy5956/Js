@@ -720,46 +720,47 @@
 
 // Write the destructuring assignment that reads name property into the variable name.years property into the variable age.isAdmin property into the variable isAdmin (false, if no such property)Here’s an example of the values after your assignment:
 
-let user = {
-     name: "John",
-     years: 30
-   };
+// let user = {
+//      name: "John",
+//      years: 30
+//    };
    
-   let {name, years: age, isAdmin = false} = user;
+//    let {name, years: age, isAdmin = false} = user;
 
 
-   console.log(name)
-   console.log(age)
-   console.log(isAdmin)
+//    console.log(name)
+//    console.log(age)
+//    console.log(isAdmin)
 
 
 
 
 
-   let salaries = {
-     "John": 100,
-     "Pete": 300,
-     "Mary": 250
-   };
+  //  let salaries = {
+  //    "John": 100,
+  //    "Pete": 300,
+  //    "Mary": 250,
+     
+  //  };
 
    
 
-   function topSalary(salaries) {
+  //  function topSalary(salaries) {
   
-     let maxSalary = 0;
-     let topPaid = null;
+  //    let maxSalary = 0;
+  //    let topPaid = null;
    
-     for(let [name, salary] of Object.entries(salaries)) {
-       if (salary > maxSalary) {
-         maxSalary = salary;
-         topPaid = name;
-       }
-     }
+  //    for(let [name, salary] of Object.entries(salaries)) {
+  //      if (salary > maxSalary) {
+  //        maxSalary = salary;
+  //        topPaid = name;
+  //      }
+  //    }
    
-     return topPaid;
-   }
+  //    return topPaid;
+  //  }
 
-   console.log(topSalary(salaries));
+  //  console.log(topSalary(salaries));
 
 
 
@@ -786,6 +787,30 @@ let user = {
 // console.log(topSalary(salaries)); // Output: null
 
 
+// function topSalary(salaries) {
+//      let maxSalary = 0;
+//      let topEarners = [];
+     
+//      if (Object.keys(salaries).length === 0) {
+//        return null;
+//      }
+     
+//      for (let [name, salary] of Object.entries(salaries)) {
+//        if (salary > maxSalary) {
+//          maxSalary = salary;
+//          topEarners = [name];
+//        } else if (salary === maxSalary) {
+//          topEarners.push(name);
+//        }
+//      }
+     
+//      return topEarners[Math.floor(Math.random() * topEarners.length)];
+//    }
+ 
+//    console.log(topSalary(salaries)); // Output: "Pete" or "David"
+      
+
+
 
 
 //    describe("topSalary", function() {
@@ -803,6 +828,30 @@ let user = {
 //        assert.isNull( topSalary({}) );
 //      });
 //    });
+
+
+// let now = new Date();
+// console.log(now);
+
+// let year = now.getFullYear();
+// console.log(year)
+
+// let hours = now.getHours();
+// console.log(hours)
+
+// let date = new Date(2020, 0, 4);
+// console.log(date)
+
+
+// create a date object for the date: feb 20, 2012, 3:12am.
+
+// let datesTime = new Date(2012, 01, 20, 3, 12);
+// console.log(datesTime);
+
+
+// JSON method
+
+
 
 
 
